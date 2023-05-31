@@ -1,0 +1,13 @@
+#include <SPI.h>
+#include <Wire.h>
+#include <BH1750.h> //BH1750 Library
+#include "Luxmetervector.h" //Image data
+#include "fonts.h" // Font file
+#include <OneWire.h>
+#include <DallasTemperature.h>
+#include <Arduino.h>
+#include <ctime>
+#include "Free_Fonts.h"
+#include <TFT_eSPI.h> // Hardware-specific library
+#include <ESP32Time.h>
+#include "Casio.h"
