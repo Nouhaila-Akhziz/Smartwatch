@@ -72,9 +72,9 @@ The smartwatch project is released under the [MIT License](LICENSE). Please revi
 ## Acknowledgements
 
 We would like to express our heartfelt gratitude to the following individuals who have contributed their time, expertise, and dedication to the development of the smartwatch project:
-    ### Nouhaila akhziz 
-    ### Amina aitlafkih 
-    ### Idriss otmani 
+### Nouhaila akhziz 
+### Amina aitlafkih 
+### Idriss otmani 
 
 ## Rapport smartwatch 
 
