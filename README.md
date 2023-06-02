@@ -1,5 +1,7 @@
 
 # Smartwatch
+![image](https://github.com/Nouhaila-Akhziz/Smartwatch/assets/132377531/11d057f6-ddf7-4777-a000-cddf6c8eabe6)
+
 This repository contains the source code and documentation for the smartwatch, which offers a range of exciting features. The smartwatch is equipped with the following functionalities:
 ### Ambient Light and Heart Rate Sensors 
 The smartwatch includes ambient light and heart rate sensors that allow users to monitor their environment and track their heart rate accurately. The ambient light sensor adjusts the screen brightness based on the surrounding lighting conditions, ensuring optimal visibility at all times. The heart rate sensor enables users to measure their heart rate and track it during workouts or daily activities.
