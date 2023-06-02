@@ -33,6 +33,20 @@ To get started with the smartwatch project, follow these steps:
 
 4. Refer to the documentation for detailed instructions on utilizing each functionality and accessing the data.
 
+## Setup
+
+In the Arduino IDE Boards Manager, install support for the ESP32.
+Arduino > Preferences > Additional Board Manager URLs
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Install this library (search for Watchy in the library manager), and any other dependencies when prompted
+Check out the examples under Examples -> Watchy
+Compile & Upload with these board settings:
+Board: "Watchy"
+Partition Scheme: "Huge App"
+Board Revision: Choose your Watchy version
+All Other Settings: leave to default
+You may also have to install the CP2104 USB to Serial drivers if the port is not automatically detected.
+
 ## Troubleshooting
 
 If you encounter any issues during the setup or usage of the smartwatch project, please follow these steps:
