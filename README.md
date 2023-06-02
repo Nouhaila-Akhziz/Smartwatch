@@ -34,28 +34,18 @@ To get started with the smartwatch project, follow these steps:
 4. Refer to the documentation for detailed instructions on utilizing each functionality and accessing the data.
 
 ## Setup
+1. In the Arduino IDE Boards Manager, [install support for the ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
+    * Arduino > Preferences > Additional Board Manager URLs
+    * ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
+2. Install this library (search for **Watchy** in the library manager), and any other dependencies when prompted
+3. Check out the examples under ```Examples``` -> ```Watchy```
+4. Compile & Upload with these board settings:
+    * Board: "Watchy"
+    * Partition Scheme: "Huge App"
+    * Board Revision: Choose your Watchy version
+    * All Other Settings: leave to default
 
-In the Arduino IDE Boards Manager, install support for the ESP32.
-
-Arduino > Preferences > Additional Board Manager URLs
-
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-
-Install this library (search for Watchy in the library manager), and any other dependencies when prompted
-
-Check out the examples under Examples -> Watchy
-
-Compile & Upload with these board settings:
-
-Board: "Watchy"
-
-Partition Scheme: "Huge App"
-
-Board Revision: Choose your Watchy version
-
-All Other Settings: leave to default
-
-You may also have to install the CP2104 USB to Serial drivers if the port is not automatically detected.
+You may also have to install the [CP2104 USB to Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) if the port is not automatically detected.
 
 ## Troubleshooting
 
@@ -81,4 +71,6 @@ The smartwatch project is released under the [MIT License](LICENSE). Please revi
 
 We would like to thank all contributors and open-source projects that made this smartwatch project possible. Your contributions and support are greatly appreciated.
 
+
+### Have Fun! :)
 
