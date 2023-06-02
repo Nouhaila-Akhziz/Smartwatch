@@ -1,5 +1,7 @@
 
 # Smartwatch
+![image](https://github.com/Nouhaila-Akhziz/Smartwatch/assets/132377531/11d057f6-ddf7-4777-a000-cddf6c8eabe6)
+
 This repository contains the source code and documentation for the smartwatch, which offers a range of exciting features. The smartwatch is equipped with the following functionalities:
 ### Ambient Light and Heart Rate Sensors 
 The smartwatch includes ambient light and heart rate sensors that allow users to monitor their environment and track their heart rate accurately. The ambient light sensor adjusts the screen brightness based on the surrounding lighting conditions, ensuring optimal visibility at all times. The heart rate sensor enables users to measure their heart rate and track it during workouts or daily activities.
@@ -33,6 +35,20 @@ To get started with the smartwatch project, follow these steps:
 
 4. Refer to the documentation for detailed instructions on utilizing each functionality and accessing the data.
 
+## Setup
+1. In the Arduino IDE Boards Manager, [install support for the ESP32](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
+    * Arduino > Preferences > Additional Board Manager URLs
+    * ```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
+2. Install this library (search for **Watchy** in the library manager), and any other dependencies when prompted
+3. Check out the examples under ```Examples``` -> ```Watchy```
+4. Compile & Upload with these board settings:
+    * Board: "Watchy"
+    * Partition Scheme: "Huge App"
+    * Board Revision: Choose your Watchy version
+    * All Other Settings: leave to default
+
+You may also have to install the [CP2104 USB to Serial drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) if the port is not automatically detected.
+
 ## Troubleshooting
 
 If you encounter any issues during the setup or usage of the smartwatch project, please follow these steps:
@@ -57,4 +73,6 @@ The smartwatch project is released under the [MIT License](LICENSE). Please revi
 
 We would like to thank all contributors and open-source projects that made this smartwatch project possible. Your contributions and support are greatly appreciated.
 
+
+### Have Fun! :)
 
